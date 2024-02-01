@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://media.istockphoto.com/id/638730224/vector/heart-pattern.jpg?s=612x612&w=0&k=20&c=px-vGXGmt3dSSa854-GroCNhPByaaWr5w_kJWrjd7Es=');
+    transition: background 1s ease;
+    background-size: auto; 
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .centered-container {
+    text-align: center;
+  }
+  
+  .centered-text {
+    background: linear-gradient(to right, pink, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .romantic-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .romantic-button-bad {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, #ff4e50, #000000);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .romantic-button:hover {
+    background: linear-gradient(to right, #fc7e5e, #f9d423);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
